@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Natural&Organic</title>
+    <meta name="description" content="Contact Your Cosmetic Shop for beauty product inquiries, support, or any questions you may have. We're here to assist you with all your cosmetic needs.">
+    <meta name="keywords" content="cosmetic shop, beauty products, contact, support, inquiries, customer service">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.yourcosmeticshop.com/contact">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,300;1,400;1,700&family=Satisfy&family=Sometype+Mono:ital@1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/823caa4f71.js" crossorigin="anonymous"></script>
+  <style>
+    @media (max-width: 768px) {
+        body {
+          background-size: contain; 
+          font-size: 17px;
+        }
+        
+      }
+      a {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 21px;
+      }
+    </style>
+
+</head>
+ <body style="background-color: #e3e3e3; background-size: cover; background-repeat: no-repeat; font-family: 'Sometype Mono', monospace;">
+     
+  <section class="contact-info">
+  <div class="container">
+    <div class = "text-center py-3">
+    <a href="index.html" title="Gateway to 🏠">Back to Homepage</a>
+    </div>
+    <div class="mb-4 mt-5 py-2 fw-bolder">
+        
+      <h2>Office Address:</h2>
+      <br>
+      <p>123 Main Street</p>
+      <p>Lviv, Ukraine, 78009</p>
+      <p>Phone: 3456858778 
+
+      </p>
+    </div>
+
+</section>
+  
+    <section class="contact-info">
+  <div class="container py-2">
+    <h2 class="mt-5">Contact Us</h2>
+    <p class="fs-5 fw-medium">If you have any questions or need assistance with our beauty products, feel free to reach out to us. We're here to help.</p>
+
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for "email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-light btn-lg fw-semibold" title = "ClICK ME! 👆">Submit</button>
+    </form>
+    <div class="social mt-5 text-center">
+     
+      <a href="mailto:your_email@example.com">
+        <i class="far fa-envelope" style="color: #0073e6;"></i>
+      </a>
+     
+      <a href="https://www.instagram.com/your_instagram_username" target="_blank">
+        <i class="fab fa-instagram" style="color: #df0c41;"></i>
+      </a>
+
+      <a href="https://twitter.com/your_twitter_username" target="_blank">
+        <i class="fab fa-twitter" style="color: #1da1f2;"></i>
+      </a>
+    </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+ 
+  const contactForm = document.getElementById('contactForm');
+  const submitButton = document.getElementById('submit');
+
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault(); 
+
+ 
+    alert('Thank you for your submission. We will contact you soon.');
+
+    
+    contactForm.reset();
+  });
+</script>
+</body>
+</html>
